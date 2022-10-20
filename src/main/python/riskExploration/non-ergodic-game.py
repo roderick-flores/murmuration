@@ -95,6 +95,7 @@ def parse_arguments() -> dict :
 		"-m", "--me",
 		nargs="+",
 		type=int,
+		default=[],
 		help="set who is playing"
 	)
 
